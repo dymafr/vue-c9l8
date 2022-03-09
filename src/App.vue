@@ -17,6 +17,7 @@ const state = reactive({
 const count = toRef(state, 'count');
 
 console.log(isReactive(state));
+console.log(isReactive(count));
 console.log(isRef(state));
 console.log(isRef(count));
 </script>
